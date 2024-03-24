@@ -1,12 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>ola</h1>
+    <main>
+        <div class="cadastramento-task">
+            <input type="text" id="nome_task" placeholder="Nome da Task">
+            <input type="text" id="area_task" placeholder="Área da task">
+            <input type="text" id="situacao" placeholder="Situação da Task">
+            <button id="cadastrar">cadastrar</button>
+        </div>
+        <div class="list-tasks" id="list_task">
+            <div class="task">
+                <p>Filipi</p>
+                <p class="Negado">Aceito</p>
+                <p>Tecnologia</p>
+            </div>
+        </div>
+    </main>
 
     <script src="script.js"></script>
 </body>
