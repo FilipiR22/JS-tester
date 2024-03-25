@@ -153,9 +153,8 @@ btn_cadastrar.addEventListener('click', () => {
 
         let p3 = document.createElement('p')
         p3.innerText = 'Situação: ' + tasks[i].situacao
-        p3.classList.add(tasks[i].situacao)
+        p3.classList.add(tasks[i].situacao.toLowerCase())
         task.append(p3)
-
         list_task.append(task)
     }
     console.log(tasks)

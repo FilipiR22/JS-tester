@@ -63,18 +63,18 @@ body main{
     align-items: center;
 }
 
-.task .Aceito{
+.task .aceito{
     background-color: green;
     padding: 8px 16px;
     border-radius: 16px;
 }
-.task .Aguardando{
+.task .aguardando{
     background-color: yellow;
     color: black;
     padding: 8px 16px;
     border-radius: 16px;
 }
-.task .Negado{
+.task .negado{
     background-color: red;
     padding: 8px 16px;
     border-radius: 16px;
