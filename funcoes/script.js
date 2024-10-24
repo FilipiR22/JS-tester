@@ -123,6 +123,7 @@ console.log(correlations)
   console.log(event + ": " + correlations[event]);
 */
 
+/*
 const nome = document.querySelector('#nome_task')
 const area = document.querySelector('#area_task')
 const list_task = document.querySelector('#list_task')
@@ -159,3 +160,9 @@ btn_cadastrar.addEventListener('click', () => {
     }
     console.log(tasks)
 })
+*/
+let copy=
+function (start,fim){
+  let list = []
+
+}
